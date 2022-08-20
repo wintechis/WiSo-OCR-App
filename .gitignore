@@ -1,0 +1,10 @@
+.idea
+.vscode
+OCR-App/.DS_Store
+.DS_Store
+../../.DS_Store
+../~$220506_Namendatenbank_WISO.docx
+**/.DS_Store
+node_modules/
+OCR-App/Test
+OCR-App/frontend/test2.js
