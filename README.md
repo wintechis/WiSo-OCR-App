@@ -27,8 +27,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This webapp was developed to help students find their way around at the WiSo faculty of the Friedrich-Alexander-University Erlangen-Nürnberg. 
 It's purpose is to retrieve relevant UniVIS data so that students can get an idea of what is being worked on in which area of the faculty.
 
