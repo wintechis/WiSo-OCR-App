@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Global</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Global</h1>
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2></h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+    
+</dl>
+    </div>
+        <h3 class="subsection-title">Methods</h3>
+    <h4 class="name" id="data"><span class="type-signature">(async) </span>data<span class="signature">(link)</span><span class="type-signature"> &rarr; {Promise.&lt;void>}</span></h4>
+<div class="description">
+    Gets name list from all people working at specific Lehrstuhl
+</div>
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            
+                <td class="name"><code>link</code></td> 
+
+            <td class="type">
+            
+            </td>
+
+            <td class="description last">> link to lehrstuhl</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+ 
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="server.js.html">server.js</a>, <a href="server.js.html#line141">line 141</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+<h5>Returns:</h5>
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;void></span>
+
+
+    </dd>
+</dl>
+
+    
+    <h4 class="name" id="getLehrstuhlData"><span class="type-signature">(async) </span>getLehrstuhlData<span class="signature">(link)</span><span class="type-signature"></span></h4>
+    
+<div class="description">
+    crawls for all the info about 1 - n Lehrstuehle
+</div>
+
+    <h5>Parameters:</h5>    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+        <th>Type</th>
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>link</code></td>
+            
+            <td class="type">
+            
+            </td>
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+<dl class="details">
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="server.js.html">server.js</a>, <a href="server.js.html#line247">line 247</a>
+    </li></ul></dd>
+    
+</dl>
+
+<h5>Returns:</h5>
+
+   
+    <h4 class="name" id="scrapeNameSpalte"><span class="type-signature">(async) </span>scrapeNameSpalte<span class="signature">()</span><span class="type-signature"></span></h4>
+
+<div class="description">
+    gets all names of people working at wiso
+</div>
+
+<dl class="details">
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="server.js.html">server.js</a>, <a href="server.js.html#line60">line 60</a>
+    </li></ul></dd>
+    
+</dl>
+
+<h5>Returns:</h5>
+    
+    <h4 class="name" id="scrapeWithName"><span class="type-signature">(async) </span>scrapeWithName<span class="signature">(name)</span><span class="type-signature"> &rarr; {Promise.&lt;string>}</span></h4>
+
+<div class="description">
+    scrapes univis for data about a scientific worker
+</div>
+
+    <h5>Parameters:</h5>
+    
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">> name of the person</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+<dl class="details">
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="server.js.html">server.js</a>, <a href="server.js.html#line172">line 172</a>
+    </li></ul></dd>
+    
+</dl>
+
+
+<h5>Returns:</h5>
+        
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;string></span>
+
+    </dd>
+</dl>
+
+    
+</article>
+
+</section>
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#data">data</a></li><li><a href="global.html#getLehrstuhlData">getLehrstuhlData</a></li><li><a href="global.html#scrapeNameSpalte">scrapeNameSpalte</a></li><li><a href="global.html#scrapeWithName">scrapeWithName</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
