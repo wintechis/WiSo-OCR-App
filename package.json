@@ -31,7 +31,7 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.18",
+    "nodemon": "^2.0.20",
     "prettier": "^2.7.1"
   },
   "type": "commonjs"
