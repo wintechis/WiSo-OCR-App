@@ -20,6 +20,7 @@
       </ul>
       <li><a href="#usage">Usage</a></li>
       <li><a href="#our-journey">Our journey</a></li>
+      <li><a href="#code-documentation">Code Documentation</a></li>
       <li><a href="#license">License</a></li>
       <li><a href="#contact">Contact</a></li>
     </li>
@@ -123,6 +124,10 @@ To summarize what could be learned while working on this project:
 * Handle the asynchronous nature of the web
 * Send and receive HTTP - Requests
 * Build a deployment pipeline on Heroku to serve the project on the web
+
+<!-- Code Documentation -->
+## Code Documentation
+Code documentation is hosted [here](https://wintechis.github.io/WiSo-OCR-App/).
 
 <!-- LICENSE -->
 ## License
