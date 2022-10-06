@@ -4,7 +4,8 @@
   "description": "Github repository für Wirtschaftsinformatik Seminar SS22",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon OCR-App/backend/server.js"
+    "dev": "nodemon OCR-App/backend/server.js",
+    "start": "node OCR-App/backend/server.js"
   },
   "repository": {
     "type": "git",
